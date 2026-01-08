@@ -5,7 +5,7 @@ We build and publish the **QSL Protocol**: secure messaging specifications, conf
 ## Featured repository
 - **qsl-protocol** — Public specifications and Suite-2 conformance vectors (DRAFT).
   - Repo: https://github.com/QuantumShieldLabs/qsl-protocol
-  - Current public tag: https://github.com/QuantumShieldLabs/qsl-protocol/releases/tag/v0.1.0-draft
+  - Current public tag: https://github.com/QuantumShieldLabs/qsl-protocol/releases/tag/v0.1.2-draft
   - Status: Not audited; not production-ready; docs + vectors only.
 
 ## What you’ll find here
