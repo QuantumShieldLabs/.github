@@ -67,11 +67,13 @@ We would rather you find this here than discover it after cloning.
 - The relay runs as a hardened single binary with deterministic error taxonomy, rate limiting,
   route caps, and idle TTL.
 - The desktop client's local lifecycle — vault creation, identity, unlock with escalating-delay
-  protection, idle autolock, settings.
+  protection, idle autolock, settings — and server configuration: relay address, access token and
+  CA file, with a Test connection that reports what the relay actually answered.
 
 **Not working yet — stated plainly**
-- **The desktop client cannot send a message.** The current build makes *no network connections
-  at all*; server connectivity is the next slice.
+- **The desktop client cannot send a message.** It can be pointed at a relay and can test that
+  connection — the app opens a network connection only when you press Test connection — but
+  messaging itself is not built.
 - **No external security review has been completed.** Treat everything as research-grade.
 - Multi-device is `primary_only` — fan-out is designed but not built.
 - Group messaging is designed but not built.
