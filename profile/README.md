@@ -192,3 +192,7 @@ not be read back into the public source terms.
 ---
 
 <sub>QuantumShield Labs - United States - <https://www.quantumshieldlabs.org/></sub>
+
+## Project development method
+
+[PROJECT_WORKFLOW.md](../PROJECT_WORKFLOW.md) defines one project-wide build method: connected safe working slices and one hardening ledger with mandatory triggers. A working slice, qualified milestone and release have separate gates; no new security/readiness claim follows from this method.

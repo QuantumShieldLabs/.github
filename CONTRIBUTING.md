@@ -1,12 +1,7 @@
 # Contributing
 
-Thank you for your interest in contributing to QuantumShieldLabs projects.
+Goals: G1, G2, G3, G4, G5
 
-## Where to start
-- Read the target repository’s `README.md` and any `docs/public/` materials.
-- Prefer opening an issue before major changes to align on scope.
+Revision: 2026-10-13. Read [the project workflow](PROJECT_WORKFLOW.md).
 
-## General rules
-- Keep changes narrowly scoped and well-documented.
-- Include tests or vectors where applicable.
-- Avoid introducing secrets, credentials, or internal endpoints into the repository.
+Follow PROJECT_WORKFLOW.md for task scope, safety, independent review and hardening gates. This guide adds component-local check references and contributor conduct.
