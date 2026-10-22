@@ -22,6 +22,19 @@ QSL brings together protocol specifications, conformance vectors, Rust implement
 - **Locally generated identities:** explore messaging without requiring a phone number.
 - **Metadata minimization:** treat routing, timing, size and retention as separate security questions. QSL does not currently establish anonymity or resistance to global traffic analysis.
 
+## The QSL design vocabulary
+
+Four names organize the design work. Published source and evidence determine what each component supports today.
+
+| QSL name | Meaning and boundary |
+|---|---|
+| **Contact Capsule** | Invitation data used to begin contact setup. Possessing a capsule does not establish a verified identity. |
+| **Key Continuity** | Message-key evolution and the incorporation of fresh key-agreement material. Security properties need their own analysis and evidence. |
+| **Commit Path** | The design requirement to make authorizing state durable before external output, and to retry the exact committed operation. |
+| **Quiet Transit** | Proposed research into reducing metadata and timing exposure. This is not a deployed protection or an established anonymity guarantee. |
+
+These are QSL presentation labels. Technical specifications retain precise algorithm names, research references and their own acceptance status.
+
 The [public evidence guide](https://github.com/QuantumShieldLabs/qsl-protocol/blob/main/docs/public/INDEX.md) connects claims to their evidence and remaining limits. The [canonical specifications](https://github.com/QuantumShieldLabs/qsl-protocol/tree/main/docs/canonical) define the protocol; they remain drafts.
 
 ## Review and contribute
