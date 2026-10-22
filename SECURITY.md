@@ -1,13 +1,22 @@
-# Security Policy
+# Security policy
 
-## Reporting a vulnerability
-Do **not** report security vulnerabilities through public GitHub issues.
+QSL is research-stage software. No production security or supported-release assurance is established by this policy.
 
-Preferred reporting method:
-- Use GitHub’s private vulnerability reporting / Security Advisories for the affected repository (when enabled), and follow that repo’s `SECURITY.md` if present.
+## Report privately
 
-If private vulnerability reporting is not available for a repository:
-- Open a minimal public issue **without exploit details** and state that you can provide additional information privately to maintainers.
+Do not publish exploit details, credentials, private data or sensitive logs in issues or pull requests. Use the affected repository's GitHub private vulnerability reporting facility when available.
+
+If that facility is unavailable, the existing fallback is a minimal public issue stating that you need a private reporting route. Include no sensitive details. Wait for an appropriate private route before sending them.
+
+## What to include
+
+- Affected repository, commit or release and environment.
+- Expected and observed behavior, security impact and relevant assumptions.
+- A minimal reproduction using synthetic data where possible.
+- Any mitigations you have tested, clearly separated from guesses.
 
 ## Scope
-This organization contains research and engineering artifacts. Each repository may define additional scope and response expectations.
+
+Shared project documents and community surfaces. Report component vulnerabilities to the affected repository.
+
+We cannot promise a response time, remediation deadline, bounty or disclosure date through this document. Coordinate disclosure with maintainers through the private reporting route. A security policy is not evidence of an independent audit.
